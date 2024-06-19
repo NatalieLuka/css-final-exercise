@@ -1,34 +1,36 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-nav {
-  width: 100%;
-  background-color: white;
+tr {
+  margin: 20px;
+  padding: 20px;
+  gap: 15px;
   color: #391306;
-  position: fixed;
-  top: 0;
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  background-color: white;
+td {
+  padding: 20px;
 }
 
-nav ul li {
-  padding: 12px;
-  font-size: 1.2em;
-  flex: 1;
-  list-style: none;
+table {
+  margin: 20px auto;
+  border: 1px solid black;
+}
 
+table,
+th,
+td {
   text-align: center;
+  border: 1px solid #391306;
+  border-collapse: collapse;
+  border-spacing: auto;
 }
 
-nav li:hover {
-  color: #67595e;
+button {
   background-color: #e98354;
-  transition: ease-in-out 200ms;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
