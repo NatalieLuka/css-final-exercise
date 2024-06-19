@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #000200;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -34,7 +35,7 @@ header {
 }
 
 nav {
-  background-color: white;
+  background-color: #00020099;
   width: 100%;
   color: #391306;
   position: fixed;
@@ -58,8 +59,11 @@ nav ul li {
 
 nav li:hover {
   color: #67595e;
-  background-color: white;
+  background-color: #e98354;
   transition: ease-in-out 200ms;
+}
+a:visited {
+  color: #df5719;
 }
 
 h1 {
